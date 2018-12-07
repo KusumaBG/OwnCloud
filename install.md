@@ -220,5 +220,8 @@ In the example, you can see that the database, ownCloud, and Redis containers ar
 When all the containers are running, it takes a few minutes for ownCloud to be fully functional. If you run the ```docker-compose logs```, and see a significant amount of information logging to the console, then wait until it slows down to attempt to access the web UI.
 # Logging In
 To log in to the ownCloud UI, open ```https://localhost``` in your browser of choice. The ownCloud login screen is displayed.
+
+![LoginPage](/LogIn.png)
+
  Enter the username and password that you stored in ```.env``` earlier.
 The first time that you access the login page through HTTPS, a browser warning appears, as the SSL certificate in the Docker setup is self-signed. However, the self-signed certificate can be overwritten with a valid certificate within the host volume.
