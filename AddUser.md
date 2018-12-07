@@ -11,7 +11,8 @@ Groups |	Group memberships are assigned to users. By default, new users are not 
 Group Admin |	Group admins are granted administrative privileges on specific groups, and can add and remove users from their groups.
 Quota	| The maximum disk space assigned to each user. Any user that exceeds the quota cannot upload or sync data. You have the option to include external storage in user quotas.
 ## How to Add a New User
-To create a user account, select **users** from the **users** drop down box and click the **Create** button.
+To create a user account, select **users** from the **users** drop down box and click the **Create** button as shown below.
+![Create User](/AddNewUser.png)
  
 You need to enter new Login Name of the user and the initial Password. You can assign a group membership by selecting **Add Group** option.
 Login names can contain: alphabets (a-z and A-Z), numbers (0-9), dashes (-), underscores (_), periods (.) and at signs (@). After creating the user, you can fill in their Full Name if the name is different from the login name, or leave it for the user to complete.
